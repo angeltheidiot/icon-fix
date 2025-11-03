@@ -1,0 +1,9 @@
+Package: com.legacyguides.iconfix
+Section: Utilities
+Author: Uniq <joey.t.reinhart@gmail.com>
+Maintainer: LegacyGuides <admin@legacyios.com>
+Architecture: iphoneos-arm
+Version: 10.1
+Description: A script that fixes the iFile and MTerminal icons on iOS 6 and below.
+Name: iFile/MTerminal icon fix
+Depends: firmware (<= 6.1.6)

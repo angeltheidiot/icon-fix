@@ -1,0 +1,10 @@
+#!/bin/sh
+
+uicache
+
+declare -a cydia
+cydia=($CYDIA)
+if [[ ${CYDIA+@} ]]; then
+    eval "echo 'finish:restart' >&${cydia[0]}"
+fi
+
